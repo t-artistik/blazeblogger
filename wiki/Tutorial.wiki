@@ -88,6 +88,26 @@ $ blaze-edit --page 3
 $ blaze-remove --page 3
 }}}
 
+== Browsing the Blog Repository ==
+
+To display all blog posts in the repository, e.g. to look up an ID of the particular post, use following command:
+
+{{{
+$ blaze-list
+}}}
+
+You can also narrow the results by providing the additional options like date or author. For example, to find all posts written by admin from the 19 December 2008, type:
+
+{{{
+$ blaze-list --author admin --year 2008 --month 12 --day 19
+}}}
+
+To browse static pages instead of blog posts, simply add the `--page` option as follows:
+
+{{{
+$ blaze-list --page
+}}}
+
 == Generating the Static Content ==
 
 To generate the static content from your repository in the current working directory, with all posts, static pages, monthly and yearly archives, tags and RSS feed included, type:

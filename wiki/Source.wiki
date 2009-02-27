@@ -1,4 +1,4 @@
-#summary How to get the source code.
+#summary Where to get the source code.
 
 As a version control system for its source code, BlazeBlogger uses [http://git-scm.com/ Git] with a public repository located on [http://gitorious.org/ Gitorious]. To download the latest development version, you can either use the following command:
 

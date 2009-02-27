@@ -51,3 +51,5 @@ etc. You might also want to change the default editor first:
 {{{
 perl blaze-config.pl core.editor C:\Location\Of\Your\editor.exe
 }}}
+
+You can also run BlazeBlogger in [http://www.cygwin.com/ Cygwin].
